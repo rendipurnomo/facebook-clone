@@ -1,0 +1,101 @@
+.share {
+    width: 100%;
+    height: 170px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 0px 0px 16px -8px rgba(0 0 0/ .7);
+}
+
+.share__wrapper {
+    padding: 20px;
+}
+
+.share__top {
+    display: flex;
+    align-items: center;
+}
+
+.share__img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.share__input {
+    border: none;
+    width: 80%;
+    color: gray;
+    font-size: 14px;
+    background-color: rgba(236, 234, 234, 0.438);
+    padding: 8px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.share__input:focus {
+    outline: none;
+}
+
+.share__line {
+    margin-top: 20px;
+}
+
+.share__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.share__options {
+    display: flex;
+}
+
+.share__option {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+
+}
+
+.share__icon {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.share__option-text {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.share__btn {
+    border: none;
+    padding: 7px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    background-color: green;
+    color: white;
+    width: 70px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 1.2;
+}
+
+.share__btn:hover {
+    background-color: rgb(4, 189, 4);
+}

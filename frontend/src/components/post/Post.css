@@ -1,0 +1,129 @@
+.post {
+    width: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 0px 0px 16px -8px rgba(0 0 0/.7);
+    margin: 30px 0;
+}
+
+.post__wrapper {
+    padding: 20px;
+}
+
+.post__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post__top-left {
+    display: flex;
+    align-items: center;
+}
+
+.post__profile-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
+}
+
+.post__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.post__username {
+    font-size: 16px;
+    margin-right: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.post__date-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.icon_date{
+    color: gray;
+    font-size: small;
+}
+
+.post__date {
+    font-size: 12px;
+    color: gray;
+    margin-right: 8px;
+}
+
+.post__icon {
+    color: gray;
+    cursor: pointer;
+}
+
+.post__center {
+    margin: 20px 0;
+}
+
+.post__text {
+    font-size:16px;
+    font-weight: 400;
+}
+
+.post__img {
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+    max-height: 300px;
+    object-fit: contain;
+}
+.post__line {
+    color: rgb(190, 190, 190);
+    margin-bottom: 10px;
+}
+
+.post__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post__bottom-left{
+    display: flex;
+    align-items: center;
+}
+
+.post_icon-like {
+    margin-right:8px;
+    cursor: pointer;
+    color: blue;
+}
+.post_icon-love {
+    margin-right:8px;
+    cursor: pointer;
+    color: red;
+}
+
+.like__counter {
+    font-size: 12px;
+    color: gray;
+}
+
+.post__comment-text{
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.post__comment-text:hover{
+    text-decoration: underline;
+}
